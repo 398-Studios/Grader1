@@ -80,15 +80,6 @@ int main()
     }
     if (sNum >= classSizeIn) {
 
-        float allTot = 0;
-        float allAvg = 0;
-
-        float allTot2 = 0;
-        float allAvg2 = 0;
-
-        float allTot3 = 0;
-        float allAvg3 = 0;
-
         for (int i = 0; i < students.size(); i++) {
             cout << students[i].name << " (ID: " << students[i].id << ") 1st Assessment Was Graded: " << students[i].assessment1 << "%\n";
             cout << students[i].name << " (ID: " << students[i].id << ") 2nd Assessment Was Graded: " << students[i].assessment2 << "%\n";
